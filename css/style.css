@@ -327,22 +327,22 @@ p {
 /* End Services Section */
 
 
-#1styear .1styear {
+#courses .courses {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#1styear .1styear-header h1 {
+#courses .courses-header h1 {
 	margin-bottom: 50px;
 }
-#1styear .1styear-courses {
+#courses .all-courses {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#1styear .1styear-item {
+#courses .course-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -352,7 +352,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#1styear .1styear-info {
+#courses .course-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -363,26 +363,26 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#1styear .1styear-info a{
+#courses .course-info a{
 	font-size: 4rem;
 	font-weight: 500;
 	color: #ffffff;
 }
-#1styear .1styear-info h2 {
+#courses .course-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#1styear .1styear-info p {
+#courses .course-info p {
 	color: white;
 }
-#1styear .1styear-img {
+#courses .course-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#1styear .1styear-img:after {
+#courses .course-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -392,10 +392,10 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: .3;
 }
-#1styear .1styear-img img {
+#courses .course-img img {
 	transition: .3s ease transform;
 }
-#1styear .1styear-item:hover .course-img img {
+#courses .course-item:hover .course-img img {
 	transform: scale(1.1);
 }
 /* End courses section */
