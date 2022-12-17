@@ -327,22 +327,22 @@ p {
 /* End Services Section */
 
 
-#1styear .courses {
+#1styear .1styear {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#1styear .courses-header h1 {
+#1styear .1styear-header h1 {
 	margin-bottom: 50px;
 }
-#1styear .all-courses {
+#1styear .1styear-courses {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#1styear .course-item {
+#1styear .1styear-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -352,7 +352,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#1styear .course-info {
+#1styear .1styear-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -363,17 +363,17 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#1styear .course-info a{
+#1styear .1styear-info a{
 	font-size: 4rem;
 	font-weight: 500;
 	color: #ffffff;
 }
-#1styear .course-info h2 {
+#1styear .1styear-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#1styear .course-info p {
+#1styear .1styear-info p {
 	color: white;
 }
 #1styear .course-img {
